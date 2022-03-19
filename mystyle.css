@@ -1,9 +1,10 @@
 body {
   background-color: #fdfdfd;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   min-width: 100vw;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -15,7 +16,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-  
+
 .navbar {
   padding: 20px;
 }
@@ -41,7 +42,7 @@ h2 {
   line-height: 57px;
 }
 
-.paragraph{
+.paragraph {
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -63,17 +64,16 @@ h2 {
   font-weight: 500;
 }
 
-button:hover{
+button:hover {
   color: #1a2236;
   border: #ff7a59 solid 1px;
-  background:#fff;
+  background: #fff;
 }
 
 .image {
   display: flex;
   align-items: center;
   flex-direction: column;
-  align-items: flex-start;
 }
   
 .image img {
@@ -103,6 +103,13 @@ button:hover{
   margin-top: 65px;
 }
 
+.dwnld_btn img {
+  width: 24px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  margin-left: 25px;
+}
+
 .card .photo img {
   min-width: 385px;
 }
@@ -114,12 +121,18 @@ button:hover{
 }
 
 .card .content h3 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 80%;
   color: white;
+}
+
+.info ul {
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
 }
 
 .card .content ul {
@@ -145,7 +158,7 @@ button:hover{
 
 .card .content .item2 {
   background-color: #98dede;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 10.3334px;
@@ -158,7 +171,7 @@ button:hover{
 
 .card .content .item3 {
   background-color: #98dede;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 10.3334px;
@@ -170,7 +183,7 @@ button:hover{
 }
 
 .card .content button {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -178,8 +191,8 @@ button:hover{
   /* identical to box height */
   text-align: center;
   background-color: #1a2236;
-  color: #ffffff;
-  border: 2px solid #ffffff;
+  color: #fff;
+  border: 2px solid #fff;
   padding: 10px 20px;
   margin-left: 20px;
   margin-top: 31px;
@@ -212,7 +225,7 @@ button:hover{
 }
 
 .about_para {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -222,7 +235,7 @@ button:hover{
 }
 
 .about_bg {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .about-setngs {
@@ -231,8 +244,8 @@ button:hover{
 
 .dwnld_btn {
   display: flex;
-  color: #ffffff;
-  font-family: 'Poppins';
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -244,17 +257,14 @@ button:hover{
   margin-top: 20px;
 }
 
-.dwnld_btn img {
-  width: 24px;
-  border: 2px solid #ffffff;
-  box-sizing: border-box;
-  margin-left: 25px;
-}
-
 .bg-info {
   background-color: #1c528a;
   margin-top: 50px;
   min-width: 100vh;
+}
+
+.skills {
+  display: flex;
 }
 
 .bg-info .skills {
@@ -272,15 +282,9 @@ button:hover{
   height: 289px;
 }
 
-.info ul {
-  list-style-type: circle;
-  margin: 0;
-  padding: 0;
-}
-
 .info ul li {
   color: white;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -297,8 +301,4 @@ button:hover{
 .bg-info3 {
   background-color: #febf52;
   min-width: 100vh;
-}
-
-.skills {
-  display: flex;
 }
