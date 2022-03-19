@@ -96,7 +96,7 @@ button:hover{
   border-radius: 5px;
 }
 
-.card .header h1 {
+.card .header h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 50px;
@@ -112,7 +112,6 @@ button:hover{
 .card .content {
   background-color: #1a2236;
   height: 180px;
-  /* width: 320px; */
   margin-top: -5px;
 }
 
@@ -192,7 +191,6 @@ button:hover{
 .card .content button img {
   width: 20.57px;
   height: 15.35px;
-  /* background-color: #ffffff; */
 }
 
 .row {
@@ -251,7 +249,6 @@ button:hover{
 
 .dwnld_btn img {
   width: 24px;
-  /* height: 18px; */
   border: 2px solid #ffffff;
   box-sizing: border-box;
   margin-left: 25px;
